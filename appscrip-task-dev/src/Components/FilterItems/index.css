@@ -1,0 +1,28 @@
+.ideal-dwonArrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width : 768px) {
+    .ideal-dwonArrow{
+        display: none;
+    }
+}
+.main-filter-deails{
+    font-weight: bold;
+    font-size: 15px;
+}
+@media screen and (max-width : 768px) {
+    .main-filter-deails{
+        display: none;
+    }
+}
+.filter-container2{
+    min-width: 360px;
+    margin: 20px;
+}
+@media screen and (max-width : 768px) {
+    .filter-container2{
+        display: none;
+    }
+}
